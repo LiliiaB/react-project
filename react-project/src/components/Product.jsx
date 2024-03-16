@@ -1,6 +1,10 @@
 // src/components/Product.jsx
 
-export const Product = ({ name, imgUrl, price }) => {
+export const Product = ({
+  name,
+  imgUrl = "https://dummyimage.com/640x480/2a2a2a/ffffff&text=Product+image+placeholder",
+  price,
+}) => {
   return (
     <div>
       <h2>{name}</h2>

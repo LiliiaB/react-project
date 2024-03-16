@@ -9,7 +9,7 @@ export default function App() {
 
       <Product
         name="Tacos With Lime"
-        imgUrl="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?dpr=2&h=480&w=640"
+        //imgUrl="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?dpr=2&h=480&w=640"
         price={10.99}
       />
       <Product
